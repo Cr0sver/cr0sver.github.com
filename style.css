@@ -132,3 +132,17 @@
       width: 140px;
     }
   }
+
+  /* Force proper scaling in iOS WebView */
+  html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+
+  @supports (-webkit-overflow-scrolling: touch) {
+    /* Additional iOS-specific adjustments */
+    body {
+      -webkit-user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+  }
