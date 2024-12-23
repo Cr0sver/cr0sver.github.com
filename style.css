@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "NewYork";
+    src: url("fonts/NewYork.ttf") format("truetype");
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "NewYork", Georgia, serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+
+  .container-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  p {
+    text-align: left;
+    margin: 1em 0;
+    line-height: 1.5;
+  }
+
+  ul {
+    text-align: left;
+    list-style-type: disc;
+    padding-left: 1.5em;
+    margin: 1em 0;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .mt-32 {
+    margin-top: 32px;
+  }
+  .mt-16 {
+    margin-top: 16px;
+  }
+
+  .logo {
+    width: 132px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .app-store-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-store-badge {
+    width: 120px;
+    margin-top: 32px;
+    opacity: 0.4;
+  }
+
+  .coming-soon {
+    margin-top: 8px;
+  }
+
+  .footer {
+    margin-top: 32px;
+    font-size: 14px;
+  }
+
+  .footer-link {
+    color: #666;
+    text-decoration: none;
+  }
+
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+
+  .separator {
+    margin: 0 8px;
+    color: #666;
+  }
